@@ -1,0 +1,7 @@
+customtkinter
+pynput
+fastapi
+uvicorn
+pywin32
+watchdog
+pydantic

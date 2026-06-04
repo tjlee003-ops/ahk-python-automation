@@ -1,0 +1,24 @@
+{
+  "theme": "system",
+  "default_execution_mode": "ahk",
+  "ahk_path": "ahk/main.ahk",
+  "startup_with_windows": true,
+  "autosave_interval_seconds": 3,
+  "log_retention": { "enabled": true, "days": 30 },
+  "companion_window": { "default_open": true, "always_on_top": true },
+  "backup": {
+    "enabled": true,
+    "schedule": "daily",
+    "time": "09:00",
+    "keep_last": 10,
+    "destination": "backups/",
+    "include_logs": false
+  },
+  "hotkeys": {
+    "show_app": "^!Numpad1",
+    "start_recording": "^!Numpad2",
+    "pause_ahk": "^!Pause",
+    "stop_ahk": "^!Escape",
+    "variable_library": "^!v"
+  }
+}
